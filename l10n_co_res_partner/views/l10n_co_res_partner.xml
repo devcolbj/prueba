@@ -172,7 +172,7 @@
             </field>
         </record>
 
-        <!-- Extending the Partner Kanban view -->
+        <!-- Extending the Partner Kanban view 
         <record model="ir.ui.view" id="res_partner_kanban_view_extened">
             <field name="name">res.partner.kanban.view.extened</field>
             <field name="inherit_id" ref="base.res_partner_kanban_view"/>
@@ -198,8 +198,8 @@
             </field>
         </record>
 
-
-        <!-- Extending the Search: Making document number searchable 
+-->
+        <!-- Extending the Search: Making document number searchable -->
         <record id="view_search_res_partner_inherited" model="ir.ui.view">
             <field name="name">Search - extension</field>
                 <field name="model">res.partner</field>
@@ -210,5 +210,5 @@
                     </field>
             </field>
         </record>
--->
+
 </odoo>
